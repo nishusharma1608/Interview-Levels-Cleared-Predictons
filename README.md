@@ -1,4 +1,4 @@
-# Job-interview-data
+# Interview Levels Cleared Predictor
 ### ABOUT THE DATA
 The dataset consists of curated features that provides a mapping of attributes of Jobs a.k.a requisitions and candidates. 
 It is divided into 60:20:20 :: training:validation:testing sets.
@@ -72,5 +72,7 @@ Accuracy will increase if we increase number of epochs, only on the cost of losi
 
 
 
+
+After testing all the models, its safe to use logistic regression or svm as the final model. We can also use bagging and boosting techniques to combine the results of several classifiers.
 
  
